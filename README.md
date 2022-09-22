@@ -1,8 +1,6 @@
 # Task Contact options 
 
-Command to run test cases 
-
-# bundle exec rspec
+Command to run test cases `bundle exec rspec`
 
 Rspec test all the scenario of the task
 
