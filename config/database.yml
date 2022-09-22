@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: dev
+  password: 1234
+  host: localhost
+  port: 5432
+development:
+  <<: *default
+  database: contact_options_development
+  pool: 100
+test:
+  <<: *default
+  database: contact_options_test
+  pool: 5
